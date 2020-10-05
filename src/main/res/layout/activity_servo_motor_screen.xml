@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".ServoMotorScreen">
+
+
+    <TextView
+        android:id="@+id/smTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="42dp"
+        android:text="Fish Feeder"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/smstatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="130dp"
+        android:text="Status"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/smBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="40dp"
+        android:text="Feed"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/smresultTextView"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="130dp"
+        android:text="Dispensing"
+        android:textColor="#81000000"
+        android:textSize="30sp" />
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:textSize="30sp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="130dp">
+
+    </AnalogClock>
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:textSize="30sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="150dp">
+    </DigitalClock>
+
+    <Button
+        android:id="@+id/settimeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:text="Set Time" />
+
+    <EditText
+        android:id="@+id/hrEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="30sp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/minEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="30sp"
+        android:inputType="text" />
+
+</RelativeLayout>
